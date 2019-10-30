@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Latitude VS Wind</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="all.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <link href="sb-admin-2.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+
+      <!-- Main Content -->
+      <div id="content">
+
+        <!-- Topbar -->
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+
+          <!-- Latitude -->
+            <div class="input-group">
+              <div class="input-group-append">
+                <div class="d-smm-none btn btn-primary">
+                  <i>LATITUDE</i>
+              </div>
+            </div>
+
+
+          <!-- Topbar Navbar -->
+          <ul class="navbar-nav ml-auto">
+
+
+            <li class="nav-item dropdown no-arrow">
+              <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="mr-2 d-lg-inline text-gray-600 small">Plots</span>
+              </a>
+
+              <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+                <a class="dropdown-item" href="latvstemp.html">
+                  <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Temperatures
+                </a>
+                <a class="dropdown-item" href="latvshumidity.html">
+                  <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Humidity
+                </a>
+                <a class="dropdown-item" href="latvscloudiness.html">
+                  <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Cloudiness
+                </a>
+                <a class="dropdown-item" href="latvswind.html">
+                  <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Wind Speed
+                </a>
+              </div>
+            </li>
+
+
+            <li class="nav-item dropdown no-arrow">
+              <a class="nav-link dropdown-toggle" href="comparison.html"  role="button">
+                <span class="mr-2 d-lg-inline text-gray-600 small">Comparison</span>
+              </a>
+            </li>
+
+            <div class="topbar-divider d-none d-sm-block"></div>
+
+
+            <li class="nav-item dropdown no-arrow">
+              <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="mr-2 d-lg-inline text-gray-600 small">Data</span>
+              </a>
+
+              <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+                <a class="dropdown-item" href="tables.html">
+                  <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
+                  Raw Data
+                </a>
+              </div>
+            </li>
+
+          </ul>
+
+        </nav>
+        <!-- End of Topbar -->
+
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
+
+          <!-- Page Heading -->
+          <div class="d-sm-flex align-items-center justify-content-between mb-4">
+            <h1 class="h3 mb-0 text-gray-800">Latitude VS Wind Speed</h1>
+            <a href="home.html" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Go back to Home Page</a>
+          </div>
+
+
+          <div class="row">
+
+            <!-- Area Chart -->
+            <div class="col-xl-8 col-lg-7">
+
+               <div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">Main Plot</h6>
+                </div>
+                <div class="card-body">
+                  <div class="text-center">
+                    <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="latvswind.png" alt="">
+                  </div>
+                  <p>There's really no relationship between wind speed and latitude, wind speed is pretty constant along different latitudes</p>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Pie Chart -->
+            <div class="col-xl-4 col-lg-5">
+			
+			<div class="row">
+			   <div class="col-xl-6 col-lg-6">
+				<div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">Latitude VS Temperature</h6>
+                </div>
+                <div class="card-body">
+                  <div class="text-center">
+                    <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="latvstemp.png" alt="">
+                  </div>
+				  <p>Check <a href="latvstemp.html">Latitude Vs Temperature</a></p>
+                </div>
+              </div>
+			 </div>
+			   <div class="col-xl-6 col-lg-6">
+				<div class="card shadow mb-4 select_h">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">Latitude VS Wind</h6>
+                </div>
+                <div class="card-body">
+                  <div class="text-center">
+                    <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="latvswind.png" alt="">
+                  </div>
+				  	<p><b>Currently Viewing</b></p>
+                    Latitude VS Wind Speed
+				<!--<p>Check <a href="latvswind.html">Latitude Vs Wind</a></p>-->
+                </div>
+              </div>
+			 </div>
+			</div>
+			
+			<div class="row">
+			   <div class="col-xl-6 col-lg-6">
+				<div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">Latitude VS Cloudiness</h6>
+                </div>
+                <div class="card-body">
+                  <div class="text-center">
+                    <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="latvscloudiness.png" alt="">
+                  </div>
+				<p>Check <a href="latvscloudiness.html">Latitude Vs Cloudiness</a></p>
+                </div>
+              </div>
+			 </div>
+			   <div class="col-xl-6 col-lg-6">
+				<div class="card shadow mb-4">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">Latitude VS Humidity</h6>
+                </div>
+                <div class="card-body">
+                  <div class="text-center">
+                    <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;" src="latvshumidity.png" alt="">
+                  </div>
+                  <p>Check <a href="latvshumidity.html">Latitude Vs Humidity</a></p>
+                </div>
+              </div>
+			 </div>
+			</div>
+			
+            </div>
+          </div>
+
+
+
+        </div>
+     
+
+      </div>
+      <!-- End of Main Content -->
+
+      <!-- Footer -->
+      <footer class="sticky-footer bg-white">
+        <div class="container my-auto">
+          <div class="copyright text-center my-auto">
+            <span>Copyright &copy; Latitude 2019</span>
+          </div>
+        </div>
+      </footer>
+      <!-- End of Footer -->
+
+    </div>
+    <!-- End of Content Wrapper -->
+
+  </div>
+  <!-- End of Page Wrapper -->
+
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="jquery.js"></script>
+  <script src="bootstrap.bundle.js"></script>
+
+
+
+
+
+</body>
+
+</html>
